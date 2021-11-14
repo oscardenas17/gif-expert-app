@@ -4,8 +4,8 @@ export const GifGridItem = ( {id,title, url} ) => {
     // console.log( id, title, url);
 
     return (
-        <div>
-          <img src= {url} alt={title} className="source" />
+        <div className="card">
+          <img src= {url} alt={title}/>
           <p>{title}</p>
         </div>
     )
