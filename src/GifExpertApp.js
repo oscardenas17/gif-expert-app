@@ -13,8 +13,6 @@ export const GifExpertApp = () => {
     //     setcategories( [...categories, 'HunterXhunter'] );
     // }
 
-
-
     return (
         <>
             <h2>GifExpertApp</h2>
